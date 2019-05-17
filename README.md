@@ -15,18 +15,18 @@
 
 ```javascript
 
-	// 加载本模块
-	const Interaction = require('interaction');
-	
-	const datas = await Interaction
-		.instance()
-		.next("请输入账号:")
-		.next("请输入密码:")
-		.final(async (account, passowrd) => {
-			console.log('account2', account);
-			console.log('password2', passowrd);
-			return 2;
-		}).then(data => console.log(data));
+// 加载本模块
+const Interaction = require('interaction');
+
+const datas = await Interaction
+	.instance()
+	.next("请输入账号:")
+	.next("请输入密码:")
+	.final(async (account, passowrd) => {
+		console.log('account2', account);
+		console.log('password2', passowrd);
+		return 2;
+	}).then(data => console.log(data));
 ```
 
 ## Change Logs
