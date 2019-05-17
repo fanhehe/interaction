@@ -1,0 +1,11 @@
+{
+  "name": "interaction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/index.test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
